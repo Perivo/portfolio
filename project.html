@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About SecLog - Security Check-In/Out Register System</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Ivo Pereira | Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <?php include('includes/header.php'); ?>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ivo Pereira</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Back to Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="intro-text">
+                <br><br>
+                <h1 class="display-3">Hi, I'm Ivo Pereira</h1>
+                <p class="lead">A passionate computer science student trespassing in the world of web technology.</p>
+                <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </div>
+    </header>
 
     <div class="container mt-5">
         <h1 class="text-center mb-4">About SecLog</h1>
@@ -16,7 +44,6 @@
             <div class="col-md-8 offset-md-2">
                 <h2>Project Overview</h2>
                 <p>SecLog is a comprehensive security check-in/check-out register system designed to streamline visitor management and tracking. The system is ideal for organizations, offices, and facilities that require a reliable method to monitor and record visitor movements.</p>
-                
                 <h2>Key Features</h2>
                 <ul>
                     <li><strong>Login/Sign-Up:</strong> Secure login and sign-up functionality for different user roles (admin, guard, visitor).</li>
@@ -65,8 +92,17 @@
         </div>
     </div>
 
-    <?php include('includes/footer.php'); ?>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <footer class="footer bg-dark text-white text-center py-3">
+        <div class="container">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Perivo/portfolio">Ivo Pereira Portfolio</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Perivo">Ivo Pereira</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+            <p class="mb-0">&copy; 2024 Ivo Pereira. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
