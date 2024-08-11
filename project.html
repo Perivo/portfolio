@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About SecLog - Security Check-In/Out Register System</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <?php include('includes/header.php'); ?>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">About SecLog</h1>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2>Project Overview</h2>
+                <p>SecLog is a comprehensive security check-in/check-out register system designed to streamline visitor management and tracking. The system is ideal for organizations, offices, and facilities that require a reliable method to monitor and record visitor movements.</p>
+                
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Login/Sign-Up:</strong> Secure login and sign-up functionality for different user roles (admin, guard, visitor).</li>
+                    <li><strong>Home Page:</strong> A centralized dashboard with navigation to various functions, including visitor registration and check-in/out processes.</li>
+                    <li><strong>Visitor Registration:</strong> Register regular and irregular visitors with necessary details.</li>
+                    <li><strong>Check-In/Check-Out:</strong> Manage the check-in and check-out process for regular and irregular visitors.</li>
+                    <li><strong>Dashboard:</strong> View all entries with advanced search, filtering options, and print functionality.</li>
+                    <li><strong>Settings:</strong> Manage user accounts, edit visitor information, and delete entries (admin only).</li>
+                </ul>
+                
+                <h2>Technical Details</h2>
+                <p>SecLog is built using a combination of modern web technologies to ensure a smooth and responsive user experience:</p>
+                <ul>
+                    <li><strong>HTML, CSS, and JavaScript:</strong> For structuring and styling the web pages.</li>
+                    <li><strong>Bootstrap:</strong> A front-end framework to provide a responsive design and modern UI elements.</li>
+                    <li><strong>PHP:</strong> Server-side scripting for handling user authentication, database interactions, and form processing.</li>
+                    <li><strong>MySQL:</strong> A relational database management system for storing user data, visitor records, and logs.</li>
+                    <li><strong>Apache Server:</strong> The web server environment used to host the application.</li>
+                </ul>
+                
+                <h2>Project Structure</h2>
+                <p>The project is organized into the following main components:</p>
+                <ul>
+                    <li><strong>assets/:</strong> Contains CSS, JavaScript, and image files used in the project.</li>
+                    <li><strong>includes/:</strong> Contains PHP files for header, footer, and configuration.</li>
+                    <li><strong>pages/:</strong> Contains PHP files for various functional pages like login, registration, and dashboard.</li>
+                    <li><strong>sql/:</strong> Contains SQL scripts for setting up the database schema.</li>
+                    <li><strong>index.php:</strong> The entry point of the application, typically the home or welcome page.</li>
+                </ul>
+                
+                <h2>How to Use</h2>
+                <p>To get started with SecLog:</p>
+                <ol>
+                    <li>Set up the database using the provided SQL schema file.</li>
+                    <li>Configure the database connection settings in the <code>config.php</code> file.</li>
+                    <li>Access the application via <code>localhost/seclog</code> and follow the on-screen instructions to log in, register users, and manage visitors.</li>
+                </ol>
+                
+                <h2>Contact</h2>
+                <p>For more information or support, please contact:</p>
+                <ul>
+                    <li><strong>Email:</strong> ivopereiraix3@gmail.com</li>
+                    <li><strong>Phone:</strong> +91 9403765835</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <?php include('includes/footer.php'); ?>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
